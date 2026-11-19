@@ -70,10 +70,6 @@ export type {
 export { DocsLayoutWorkerCapabilityError, DocsLayoutWorkerClientService, UniverDocsLayoutWorkerPlugin } from './layout-worker';
 export type { IUniverDocsLayoutWorkerConfig } from './layout-worker/config/config';
 export type { IDocsLayoutWorkerCapabilities, IDocsLayoutWorkerFontProbe, IDocsLayoutWorkerRuntime } from './layout-worker/protocol';
-export {
-    /** @deprecated Register UniverDocsWorkerPlugin from '@univerjs/docs/worker' instead. This root export will be removed in the next release. */
-    startDocsLayoutWorker,
-} from './layout-worker/worker';
 export { UniverDocsPlugin } from './plugin';
 export { DocBlockMoveValidatorService } from './services/doc-block-move-validator.service';
 export type {
@@ -138,6 +134,7 @@ export {
     canEditDocumentTargets,
     createDocumentPermissionPoint,
     DOCUMENT_UNIT_PERMISSION_ACTIONS,
+    getDocumentCommentPermission,
     getDocumentEntityPermissionObjectId,
     getDocumentParagraphPermissionObjectId,
     getDocumentPermissionValue,

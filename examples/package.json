@@ -19,7 +19,7 @@
         "@univerjs/docs-ui": "workspace:*",
         "@univerjs/drawing": "workspace:*",
         "@univerjs/engine-render": "workspace:*",
-        "@univerjs/icons": "1.47.0",
+        "@univerjs/icons": "1.48.0",
         "@univerjs/preset-docs-core": "workspace:*",
         "@univerjs/preset-docs-drawing": "workspace:*",
         "@univerjs/preset-docs-hyper-link": "workspace:*",
@@ -47,9 +47,9 @@
         "postcss": "^8.5.32",
         "tailwindcss": "3.4.18",
         "tailwindcss-animate": "^1.0.7",
-        "tsrs": "0.20.1-ts7.1.0-beta",
+        "tsrs": "0.23.0-ts7.1.0-beta",
         "tsx": "^4.23.15",
         "vite": "^8.3.0",
-        "vitest": "^5.0.5"
+        "vitest": "^5.1.0"
     }
 }
